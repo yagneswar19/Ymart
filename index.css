@@ -1,0 +1,26 @@
+body{
+        background-color: aquamarine;
+    }
+    .hero {
+      background: url('back.jpg') no-repeat center center;
+      background-size: cover;
+      padding: 80px 0;
+      text-align: center;
+      color: white;
+    }
+    .hero h1, .hero p {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    .category-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .newsletter {
+      background-color: #f1f9ff;
+      padding: 50px 0;
+    }
+    footer {
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+      padding: 30px 0;
+    }
