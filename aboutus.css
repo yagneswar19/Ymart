@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  
+  background-image: url("https://media.istockphoto.com/id/1179680552/photo/trading-room-in-the-supermarket-out-of-focus.webp?a=1&b=1&s=612x612&w=0&k=20&c=-XDAN-NsIPE0TimXnJNRdyibEhZjLL9crmBJoMthsiE=")
+}
+
+
+header {
+  background-color: rgb(139, 220, 139);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: black;
+  /* size: 80px; */
+  font-size: 40px;
+  text-align: center;
+}
+main.about {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-content h2 {
+  margin-bottom: 20px;
+  color: rgb(28, 194, 28);
+}
+
+.about-content p {
+  margin-bottom: 16px;
+}
+/* Existing styles here... (keep everything from earlier) */
+
+/* Banner Section */
+.banner img {
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+
+/* Gallery Section */
+.gallery {
+  margin-top: 40px;
+}
+
+.gallery h2 {
+  text-align: center;
+  color: #089224;
+  margin-bottom: 20px;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.gallery-images img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.gallery-images img:hover {
+  transform: scale(1.05);
+}
