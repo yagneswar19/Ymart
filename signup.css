@@ -9,8 +9,9 @@ body {
 }
 
 .signup-container {
-  background: rgb(172, 125, 125);
+  background: rgb(255, 231, 231);
   padding: 35px;
+  padding-right: 60px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   width: 100%;
