@@ -2,7 +2,7 @@ body{
         background-color: aquamarine;
     }
     .hero {
-      background: url('back.jpg') no-repeat center center;
+      background: url('images\back.jpg') no-repeat center center;
       background-size: cover;
       padding: 80px 0;
       text-align: center;
