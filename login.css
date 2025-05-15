@@ -4,20 +4,20 @@ body {
 }
 
 .navbar {
-    background-color: #2c3e50 !important;
+    background-color: #cae0f7 !important;
 }
 
 .navbar-brand {
     font-weight: bold;
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .nav-link {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(44, 17, 94, 0.8) !important;
 }
 
 .nav-link:hover {
-    color: white !important;
+    color: rgba(18, 1, 50, 0.8) !important;
 }
 
 .login-container {
@@ -53,16 +53,18 @@ body {
 }
 
 footer {
-    background-color: #2c3e50;
-    color: rgb(255, 255, 255);
-    margin-top: 50px;
-    padding-bottom: 80px;
-    padding-top: 50px;
-    margin-bottom: 100px;
+      background-color: #cae0f7;
+      border-top: 1px solid #ddd;
+      padding: 30px 0;
+      
+    }
 
+    #ymart{
 
-
-}
+        height: 40px;
+        width: 140px;
+        border-radius: 0px;
+    }
 
 .logo-img {
     height: 40px;
