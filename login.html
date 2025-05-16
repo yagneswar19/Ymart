@@ -51,7 +51,28 @@
                     <label for="password" class="form-label">Password</label>
                     <input type="password" class="form-control" id="password" required placeholder="Enter your password">
                 </div>
-                <button type="submit" class="btn btn-primary login-btn">Login</button>
+                <button type="button" class="login-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="width: 440px; border-radius: 10px; color: #ffffff;">
+            Login
+        </button>
+        
+        <!-- Modal/Popup -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Popup Title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Login Succesfull.Continue Shopping!!!</p>
+                    </div>
+                    <div class="modal-footer">
+                        
+                        <button type="button" class="btn btn-primary"><a href="index.html" style="color: #ffffff; text-decoration: none;">Home</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
                 <div class="forgot-password">
                     <a href="#" class="text-decoration-none">Forgot Password?</a>
                 </div>
