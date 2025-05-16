@@ -4,6 +4,11 @@ body, h1, h2, p, ul {
   padding: 0;
 }
 
+.about{
+
+  width: 1200px;
+  height: 900px;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -11,7 +16,9 @@ body {
   color: #333;
   
   background-image: url("https://media.istockphoto.com/id/1179680552/photo/trading-room-in-the-supermarket-out-of-focus.webp?a=1&b=1&s=612x612&w=0&k=20&c=-XDAN-NsIPE0TimXnJNRdyibEhZjLL9crmBJoMthsiE=")
-  
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-size: 100% 100%; */
 }
 
 
@@ -85,4 +92,11 @@ main.about {
 
 .gallery-images img:hover {
   transform: scale(1.05);
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
